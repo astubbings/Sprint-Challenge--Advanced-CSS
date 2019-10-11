@@ -37,10 +37,15 @@ Edit this document to include your answers after each question. Make sure to lea
 2. Describe what it means to be mobile first vs desktop first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+    to make an easy base text unit that is approximately 10px and rem refer to the root size and multiply by 10. 10 is a nice round number
 
 4. How would you describe preprocessing to someone new to CSS?
+    "less" is a compiler that read the "less css syntax" and allows you to write nested css code with "less". the compiler then processes and expands the code to vanilla CSS which can be read by browsers
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    I LIKE the mixins and variables allow you to write "DRY" code.
+    I DONT like that VSCode doesn't neccessarily show errors and you must look on the compiler when it seems the the code just isn't updating.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
