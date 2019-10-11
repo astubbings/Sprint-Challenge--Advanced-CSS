@@ -308,8 +308,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text p {
     margin: 5% 0;
-    width: 100%;
-    margin-top: 20px;
+    width: 90%;
   }
 }
 .home .walk .walk-text .btn {
@@ -330,7 +329,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
-    width: 100%;
+    width: 90%;
   }
 }
 .home .walk .walk-img {
@@ -339,7 +338,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
-    margin: 5%;
+    margin: 4% 0;
+    margin-left: 4%;
     width: 90%;
     margin-top: 20px;
   }
