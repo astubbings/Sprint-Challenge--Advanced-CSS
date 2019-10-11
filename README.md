@@ -33,8 +33,11 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+    adaptive website can be fully responsize. an adative website means including ways to be sure ADA compliance is met with users who may be sight impaired or hearing impaired or mobility impaired. an example is alt="this is a picture of a sunrise" which is alternative text on an image tag that describes the picture for someone who is visually impaired or maybe doesn't have the bandwidth to load images.
 
 2. Describe what it means to be mobile first vs desktop first.
+    making an assumtion that MOST users will be viewing on a mobile device and working your way outward to style up to destop view.
+    our projects including this sprint are desktop first and viewability on mobile after the fact
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
     to make an easy base text unit that is approximately 10px and rem refer to the root size and multiply by 10. 10 is a nice round number
