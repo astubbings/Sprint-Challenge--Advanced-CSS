@@ -1,1 +1,34 @@
 // Mixins Here
+
+//complex parametric mixin for button
+.spaceButton(@btn-bg-color, @btn-font-color) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: @btn-bg-color;
+    width: 30%;
+    height: 36px;
+    font-size: 1.9rem;
+    border-radius: 5px;
+    color: @btn-font-color;
+
+    &:hover{
+        background-color: @btn-font-color;
+        color: @btn-bg-color;
+        border: 1px solid @shuttle-gray;
+    }
+}
+
+
+// my display: flex mixin
+.custom-layout(@justify, @align){
+	display: flex;
+	justify-content: @justify;
+    align-items: @align;
+}
+
+
+// basic mixin 
+.containerBackground {
+    background-color: @nav-bg;
+}
