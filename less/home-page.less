@@ -1,41 +1,80 @@
 // Home Content
 
 .home {
-
+  img {
+        border-radius: 5px; 
+        width: 100%;
+        height: auto;
+      }
   .intro {
-
+    
     h2 {
-      padding: 15px;
+      padding: 10px 2%;
+      @media @phone {
+        margin: 0 2%;
+      }
     }
 
     p {
-      padding:0 15px;
+      padding: 10px 2%;
+      @media @phone {
+        margin: 0 2%;
+      }
     }
+  }  
+
   
-  }
 
   .space-images {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-
+    @media @phone {
+      margin: 0 5%;
+    }
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      
+      @media @phone {
+        margin: 0;
+        width: 90%;
+        margin-top: 20px;
+
+      }
+
     }
+    @media @phone {
+        img.sky{
+          display: none;
+        }
+        img.launch{
+          display: none;
+        }
+    }
+    
   }
 
   .visit-planets {
-    padding: 15px;
+    
+
 
     h3 {
       margin-top: 11px;
+      padding: 0 15px;
+      @media @phone {
+        margin: 5% 0;
+      }
     }
 
     p {
       margin-top: 13px;
+      padding: 0 15px;
+      @media @phone {
+        margin: 1% 0;
+      }
     }
   }
 
@@ -46,29 +85,58 @@
     display: flex;
     justify-content: center;
 
+    @media @phone {
+      
+      margin: 5% 0;
+      padding: 0px;
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+
     .walk-text {
       width: 50%;
+    @media @phone {
+              width: 100%;
+              margin: 15px 5%;
+            }
 
       h3 {
         margin-bottom: 10px;
+      
       }
 
       p {
         margin-bottom: 26px;
+        @media @phone {
+          margin: 5% 0;
+          width: 90%;
+        }
       }
+        
 
       .btn {
+        .spaceButton(@btn-bg-color, @btn-font-color);
+        @media @phone {
+          width: 90%;
+          height: 70px;
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+      @media @phone {
+        margin: 4% 0;
+        margin-left: 4%;
+        width: 90%;
+        margin-top: 20px;
+        }
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        
       }
     }
   }

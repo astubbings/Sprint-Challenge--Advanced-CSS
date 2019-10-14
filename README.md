@@ -33,14 +33,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+    adaptive website can be fully responsize. an adative website means including ways to be sure ADA compliance is met with users who may be sight impaired or hearing impaired or mobility impaired. an example is alt="this is a picture of a sunrise" which is alternative text on an image tag that describes the picture for someone who is visually impaired or maybe doesn't have the bandwidth to load images.
 
 2. Describe what it means to be mobile first vs desktop first.
+    making an assumtion that MOST users will be viewing on a mobile device and working your way outward to style up to destop view.
+    our projects including this sprint are desktop first and viewability on mobile after the fact
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+    to make an easy base text unit that is approximately 10px and rem refer to the root size and multiply by 10. 10 is a nice round number
 
 4. How would you describe preprocessing to someone new to CSS?
+    "less" is a compiler that read the "less css syntax" and allows you to write nested css code with "less". the compiler then processes and expands the code to vanilla CSS which can be read by browsers
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    I LIKE the mixins and variables allow you to write "DRY" code.
+    I DONT like that VSCode doesn't neccessarily show errors and you must look on the compiler when it seems the the code just isn't updating.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -94,31 +102,31 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [ ] DONE Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-* [ ] Add a viewport meta tag to the head of your index.html page
+* [ ] DONE Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [ ] DONE [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+* [ ] DONE Navigation Styles: Use the `navigation.less` file for styling.
 
-* [ ] Main Content Styles: Use the `home-page.less` file for styling
+* [ ] DONE Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [ ] DONE LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+* [ ] DONE LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+* [ ]  DONE Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [ ] DONE Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [ ] DONE Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
 * [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [ ] DONE Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
